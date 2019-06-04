@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTessDotNet", "LibTessDotNet\LibTessDotNet.csproj", "{5EE39029-873A-45A0-9259-2198BF8729F4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TessBed", "TessBed\TessBed.csproj", "{AA3C13F4-2628-43D5-BAAE-751AE013C865}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{1E6E1C79-67C6-4979-A1D3-50A976ABB44E}"
@@ -15,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{1E6E1C79-6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TessExample", "TessExample\TessExample.csproj", "{BB1005DC-C911-4E65-B3B8-7316357FD254}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTessDotNet", "LibTessDotNet\LibTessDotNet.csproj", "{53E6F473-12B0-4352-BBDA-6413B889D08D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,14 +23,6 @@ Global
 		ReleaseDouble|Any CPU = ReleaseDouble|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5EE39029-873A-45A0-9259-2198BF8729F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5EE39029-873A-45A0-9259-2198BF8729F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5EE39029-873A-45A0-9259-2198BF8729F4}.DebugDouble|Any CPU.ActiveCfg = DebugDouble|Any CPU
-		{5EE39029-873A-45A0-9259-2198BF8729F4}.DebugDouble|Any CPU.Build.0 = DebugDouble|Any CPU
-		{5EE39029-873A-45A0-9259-2198BF8729F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5EE39029-873A-45A0-9259-2198BF8729F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5EE39029-873A-45A0-9259-2198BF8729F4}.ReleaseDouble|Any CPU.ActiveCfg = ReleaseDouble|Any CPU
-		{5EE39029-873A-45A0-9259-2198BF8729F4}.ReleaseDouble|Any CPU.Build.0 = ReleaseDouble|Any CPU
 		{AA3C13F4-2628-43D5-BAAE-751AE013C865}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{AA3C13F4-2628-43D5-BAAE-751AE013C865}.Debug|Any CPU.Build.0 = Debug|x86
 		{AA3C13F4-2628-43D5-BAAE-751AE013C865}.DebugDouble|Any CPU.ActiveCfg = Debug|x86
@@ -43,8 +35,19 @@ Global
 		{BB1005DC-C911-4E65-B3B8-7316357FD254}.Release|Any CPU.ActiveCfg = Release|x86
 		{BB1005DC-C911-4E65-B3B8-7316357FD254}.Release|Any CPU.Build.0 = Release|x86
 		{BB1005DC-C911-4E65-B3B8-7316357FD254}.ReleaseDouble|Any CPU.ActiveCfg = Release|x86
+		{53E6F473-12B0-4352-BBDA-6413B889D08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E6F473-12B0-4352-BBDA-6413B889D08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E6F473-12B0-4352-BBDA-6413B889D08D}.DebugDouble|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E6F473-12B0-4352-BBDA-6413B889D08D}.DebugDouble|Any CPU.Build.0 = Debug|Any CPU
+		{53E6F473-12B0-4352-BBDA-6413B889D08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E6F473-12B0-4352-BBDA-6413B889D08D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E6F473-12B0-4352-BBDA-6413B889D08D}.ReleaseDouble|Any CPU.ActiveCfg = Release|Any CPU
+		{53E6F473-12B0-4352-BBDA-6413B889D08D}.ReleaseDouble|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC532C06-24FD-4E7E-9DEE-F27EA15C2433}
 	EndGlobalSection
 EndGlobal
